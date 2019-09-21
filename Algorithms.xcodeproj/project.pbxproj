@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA8B96A523367FFE004A489C /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B96A423367FFE004A489C /* BubbleSort.swift */; };
+		BA8B96A823368045004A489C /* BubbleSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B96A723368045004A489C /* BubbleSortTests.swift */; };
 		BA9BB8F623367E9900C13E58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BB8F523367E9900C13E58 /* AppDelegate.swift */; };
 		BA9BB8F823367E9900C13E58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BB8F723367E9900C13E58 /* SceneDelegate.swift */; };
 		BA9BB8FA23367E9900C13E58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BB8F923367E9900C13E58 /* ContentView.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA8B96A423367FFE004A489C /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		BA8B96A723368045004A489C /* BubbleSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSortTests.swift; sourceTree = "<group>"; };
 		BA9BB8F223367E9900C13E58 /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9BB8F523367E9900C13E58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA9BB8F723367E9900C13E58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +62,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA8B96A62336800F004A489C /* BubbleSort */ = {
+			isa = PBXGroup;
+			children = (
+				BA8B96A423367FFE004A489C /* BubbleSort.swift */,
+			);
+			path = BubbleSort;
+			sourceTree = "<group>";
+		};
 		BA9BB8E923367E9900C13E58 = {
 			isa = PBXGroup;
 			children = (
@@ -79,13 +91,9 @@
 		BA9BB8F423367E9900C13E58 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				BA9BB8F523367E9900C13E58 /* AppDelegate.swift */,
-				BA9BB8F723367E9900C13E58 /* SceneDelegate.swift */,
-				BA9BB8F923367E9900C13E58 /* ContentView.swift */,
-				BA9BB8FB23367E9A00C13E58 /* Assets.xcassets */,
-				BA9BB90023367E9A00C13E58 /* LaunchScreen.storyboard */,
-				BA9BB90323367E9A00C13E58 /* Info.plist */,
+				BA9BB91723367F2700C13E58 /* Algorithms Content */,
 				BA9BB8FD23367E9A00C13E58 /* Preview Content */,
+				BA8B96A62336800F004A489C /* BubbleSort */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -101,10 +109,24 @@
 		BA9BB90B23367E9A00C13E58 /* AlgorithmsTests */ = {
 			isa = PBXGroup;
 			children = (
+				BA8B96A723368045004A489C /* BubbleSortTests.swift */,
 				BA9BB90C23367E9A00C13E58 /* AlgorithmsTests.swift */,
 				BA9BB90E23367E9A00C13E58 /* Info.plist */,
 			);
 			path = AlgorithmsTests;
+			sourceTree = "<group>";
+		};
+		BA9BB91723367F2700C13E58 /* Algorithms Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA9BB8F523367E9900C13E58 /* AppDelegate.swift */,
+				BA9BB8F723367E9900C13E58 /* SceneDelegate.swift */,
+				BA9BB8F923367E9900C13E58 /* ContentView.swift */,
+				BA9BB8FB23367E9A00C13E58 /* Assets.xcassets */,
+				BA9BB90023367E9A00C13E58 /* LaunchScreen.storyboard */,
+				BA9BB90323367E9A00C13E58 /* Info.plist */,
+			);
+			path = "Algorithms Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +233,7 @@
 				BA9BB8F623367E9900C13E58 /* AppDelegate.swift in Sources */,
 				BA9BB8F823367E9900C13E58 /* SceneDelegate.swift in Sources */,
 				BA9BB8FA23367E9900C13E58 /* ContentView.swift in Sources */,
+				BA8B96A523367FFE004A489C /* BubbleSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA9BB90D23367E9A00C13E58 /* AlgorithmsTests.swift in Sources */,
+				BA8B96A823368045004A489C /* BubbleSortTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,11 +385,10 @@
 		BA9BB91223367E9A00C13E58 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Algorithms/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Algorithms/Info.plist;
+				INFOPLIST_FILE = "Algorithms/Algorithms Content/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -373,18 +396,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vandermesis.Algorithms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		BA9BB91323367E9A00C13E58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Algorithms/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Algorithms/Info.plist;
+				INFOPLIST_FILE = "Algorithms/Algorithms Content/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -392,7 +414,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vandermesis.Algorithms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
