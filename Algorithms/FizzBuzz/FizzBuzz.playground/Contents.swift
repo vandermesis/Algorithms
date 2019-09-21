@@ -18,4 +18,5 @@ func fizzBuzz(_ array: [Int]) -> [String] {
     return fizzbuzzArray
 }
 
+fizzBuzz([30])
 fizzBuzz(numbers)

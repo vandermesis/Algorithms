@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BA19B2462336B2CA00E39642 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA19B2452336B2CA00E39642 /* FizzBuzz.swift */; };
+		BA19B24A2336B71300E39642 /* FizzBuzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA19B2492336B71300E39642 /* FizzBuzzTests.swift */; };
 		BA8B96A523367FFE004A489C /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B96A423367FFE004A489C /* BubbleSort.swift */; };
 		BA8B96A823368045004A489C /* BubbleSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B96A723368045004A489C /* BubbleSortTests.swift */; };
 		BA8B96AA23368759004A489C /* LinearSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B96A923368759004A489C /* LinearSearch.swift */; };
@@ -36,6 +37,7 @@
 /* Begin PBXFileReference section */
 		BA19B2452336B2CA00E39642 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 		BA19B2472336B40800E39642 /* FizzBuzz.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FizzBuzz.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BA19B2492336B71300E39642 /* FizzBuzzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzTests.swift; sourceTree = "<group>"; };
 		BA8B96A423367FFE004A489C /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		BA8B96A723368045004A489C /* BubbleSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSortTests.swift; sourceTree = "<group>"; };
 		BA8B96A923368759004A489C /* LinearSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearSearch.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 		BA9BB90B23367E9A00C13E58 /* AlgorithmsTests */ = {
 			isa = PBXGroup;
 			children = (
+				BA19B2492336B71300E39642 /* FizzBuzzTests.swift */,
 				BA8B96A723368045004A489C /* BubbleSortTests.swift */,
 				BA9BB90C23367E9A00C13E58 /* AlgorithmsTests.swift */,
 				BA8B96AD23368A31004A489C /* LinearSearchTests.swift */,
@@ -283,6 +286,7 @@
 				BA9BB90D23367E9A00C13E58 /* AlgorithmsTests.swift in Sources */,
 				BA8B96A823368045004A489C /* BubbleSortTests.swift in Sources */,
 				BA8B96AE23368A31004A489C /* LinearSearchTests.swift in Sources */,
+				BA19B24A2336B71300E39642 /* FizzBuzzTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
