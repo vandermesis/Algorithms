@@ -9,17 +9,20 @@
 
 ## What for
 It's for me to practise coding skills and Swift understanding.
+
 I failed with Bubble Sort coding challange on my first job interview and decieded to practise algorithms path as much as my Swift path.
 
 ## What new I've learned
 
 - [x] Unit Tests
+
 - [x] Bubble Sort
 - [x] Linear Search
 - [ ] FizzBuzz
 - [ ] Tree Data Structure
 - [ ] Stack Data Structure
 - [ ] Queue Data Structure
+
 ...
 
 ## Requirements
