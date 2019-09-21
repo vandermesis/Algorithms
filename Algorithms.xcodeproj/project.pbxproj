@@ -10,6 +10,7 @@
 		BA8B96A523367FFE004A489C /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B96A423367FFE004A489C /* BubbleSort.swift */; };
 		BA8B96A823368045004A489C /* BubbleSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B96A723368045004A489C /* BubbleSortTests.swift */; };
 		BA8B96AA23368759004A489C /* LinearSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B96A923368759004A489C /* LinearSearch.swift */; };
+		BA8B96AE23368A31004A489C /* LinearSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B96AD23368A31004A489C /* LinearSearchTests.swift */; };
 		BA9BB8F623367E9900C13E58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BB8F523367E9900C13E58 /* AppDelegate.swift */; };
 		BA9BB8F823367E9900C13E58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BB8F723367E9900C13E58 /* SceneDelegate.swift */; };
 		BA9BB8FA23367E9900C13E58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BB8F923367E9900C13E58 /* ContentView.swift */; };
@@ -33,6 +34,8 @@
 		BA8B96A423367FFE004A489C /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		BA8B96A723368045004A489C /* BubbleSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSortTests.swift; sourceTree = "<group>"; };
 		BA8B96A923368759004A489C /* LinearSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearSearch.swift; sourceTree = "<group>"; };
+		BA8B96AC233688E8004A489C /* LinearSearch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LinearSearch.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BA8B96AD23368A31004A489C /* LinearSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearSearchTests.swift; sourceTree = "<group>"; };
 		BA9BB8F223367E9900C13E58 /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9BB8F523367E9900C13E58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA9BB8F723367E9900C13E58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				BA8B96A923368759004A489C /* LinearSearch.swift */,
+				BA8B96AC233688E8004A489C /* LinearSearch.playground */,
 			);
 			path = LinearSearch;
 			sourceTree = "<group>";
@@ -122,6 +126,7 @@
 			children = (
 				BA8B96A723368045004A489C /* BubbleSortTests.swift */,
 				BA9BB90C23367E9A00C13E58 /* AlgorithmsTests.swift */,
+				BA8B96AD23368A31004A489C /* LinearSearchTests.swift */,
 				BA9BB90E23367E9A00C13E58 /* Info.plist */,
 			);
 			path = AlgorithmsTests;
@@ -255,6 +260,7 @@
 			files = (
 				BA9BB90D23367E9A00C13E58 /* AlgorithmsTests.swift in Sources */,
 				BA8B96A823368045004A489C /* BubbleSortTests.swift in Sources */,
+				BA8B96AE23368A31004A489C /* LinearSearchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
