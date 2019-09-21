@@ -6,6 +6,7 @@
 ![platform](https://img.shields.io/badge/platform-iOS-green.svg)
 ![swift](https://img.shields.io/badge/swift-5.0-brightgreen.svg)
 ![xcode](https://img.shields.io/badge/xcode-11-orange.svg)
+[![Build Status](https://travis-ci.org/vandermesis/Algorithms.svg?branch=master)](https://travis-ci.org/vandermesis/Algorithms)
 
 ## What for
 It's for me to practise coding skills and Swift understanding.
