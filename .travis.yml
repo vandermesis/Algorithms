@@ -1,0 +1,5 @@
+language: objective-c
+osx_image: xcode11
+xcode_project: Algorithms.xcodeproj
+xcode_scheme: Algorithms
+xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone 8
