@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BA8B96A523367FFE004A489C /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B96A423367FFE004A489C /* BubbleSort.swift */; };
 		BA8B96A823368045004A489C /* BubbleSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B96A723368045004A489C /* BubbleSortTests.swift */; };
+		BA8B96AA23368759004A489C /* LinearSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B96A923368759004A489C /* LinearSearch.swift */; };
 		BA9BB8F623367E9900C13E58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BB8F523367E9900C13E58 /* AppDelegate.swift */; };
 		BA9BB8F823367E9900C13E58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BB8F723367E9900C13E58 /* SceneDelegate.swift */; };
 		BA9BB8FA23367E9900C13E58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BB8F923367E9900C13E58 /* ContentView.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		BA8B96A423367FFE004A489C /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		BA8B96A723368045004A489C /* BubbleSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSortTests.swift; sourceTree = "<group>"; };
+		BA8B96A923368759004A489C /* LinearSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearSearch.swift; sourceTree = "<group>"; };
 		BA9BB8F223367E9900C13E58 /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9BB8F523367E9900C13E58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA9BB8F723367E9900C13E58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,14 @@
 			path = BubbleSort;
 			sourceTree = "<group>";
 		};
+		BA8B96AB2336876B004A489C /* LinearSearch */ = {
+			isa = PBXGroup;
+			children = (
+				BA8B96A923368759004A489C /* LinearSearch.swift */,
+			);
+			path = LinearSearch;
+			sourceTree = "<group>";
+		};
 		BA9BB8E923367E9900C13E58 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +104,7 @@
 				BA9BB91723367F2700C13E58 /* Algorithms Content */,
 				BA9BB8FD23367E9A00C13E58 /* Preview Content */,
 				BA8B96A62336800F004A489C /* BubbleSort */,
+				BA8B96AB2336876B004A489C /* LinearSearch */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -232,6 +243,7 @@
 			files = (
 				BA9BB8F623367E9900C13E58 /* AppDelegate.swift in Sources */,
 				BA9BB8F823367E9900C13E58 /* SceneDelegate.swift in Sources */,
+				BA8B96AA23368759004A489C /* LinearSearch.swift in Sources */,
 				BA9BB8FA23367E9900C13E58 /* ContentView.swift in Sources */,
 				BA8B96A523367FFE004A489C /* BubbleSort.swift in Sources */,
 			);
