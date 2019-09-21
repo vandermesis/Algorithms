@@ -8,8 +8,8 @@
 ![xcode](https://img.shields.io/badge/xcode-11-orange.svg)
 
 ## What for
-It's for me to practise Swift.
-I failed with Bubble Sort coding challange on my first job interview and decieded to 
+It's for me to practise coding skills and Swift understanding.
+I failed with Bubble Sort coding challange on my first job interview and decieded to practise algorithms path as much as my Swift path.
 
 ## What new I've learned
 
