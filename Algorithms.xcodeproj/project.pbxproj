@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA19B2462336B2CA00E39642 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA19B2452336B2CA00E39642 /* FizzBuzz.swift */; };
 		BA8B96A523367FFE004A489C /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B96A423367FFE004A489C /* BubbleSort.swift */; };
 		BA8B96A823368045004A489C /* BubbleSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B96A723368045004A489C /* BubbleSortTests.swift */; };
 		BA8B96AA23368759004A489C /* LinearSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B96A923368759004A489C /* LinearSearch.swift */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA19B2452336B2CA00E39642 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
+		BA19B2472336B40800E39642 /* FizzBuzz.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FizzBuzz.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BA8B96A423367FFE004A489C /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		BA8B96A723368045004A489C /* BubbleSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSortTests.swift; sourceTree = "<group>"; };
 		BA8B96A923368759004A489C /* LinearSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearSearch.swift; sourceTree = "<group>"; };
@@ -71,6 +74,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA19B2482336B4BA00E39642 /* FizzBuzz */ = {
+			isa = PBXGroup;
+			children = (
+				BA19B2452336B2CA00E39642 /* FizzBuzz.swift */,
+				BA19B2472336B40800E39642 /* FizzBuzz.playground */,
+			);
+			path = FizzBuzz;
+			sourceTree = "<group>";
+		};
 		BA8B96A62336800F004A489C /* BubbleSort */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,8 +103,8 @@
 		BA9BB8E923367E9900C13E58 = {
 			isa = PBXGroup;
 			children = (
-				BA8B96B023368DE4004A489C /* Demo */,
 				BA8B96AF23368DE4004A489C /* README.md */,
+				BA8B96B023368DE4004A489C /* Demo */,
 				BA9BB8F423367E9900C13E58 /* Algorithms */,
 				BA9BB90B23367E9A00C13E58 /* AlgorithmsTests */,
 				BA9BB8F323367E9900C13E58 /* Products */,
@@ -115,6 +127,7 @@
 				BA9BB8FD23367E9A00C13E58 /* Preview Content */,
 				BA8B96A62336800F004A489C /* BubbleSort */,
 				BA8B96AB2336876B004A489C /* LinearSearch */,
+				BA19B2482336B4BA00E39642 /* FizzBuzz */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -259,6 +272,7 @@
 				BA8B96AA23368759004A489C /* LinearSearch.swift in Sources */,
 				BA9BB8FA23367E9900C13E58 /* ContentView.swift in Sources */,
 				BA8B96A523367FFE004A489C /* BubbleSort.swift in Sources */,
+				BA19B2462336B2CA00E39642 /* FizzBuzz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

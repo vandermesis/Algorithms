@@ -19,7 +19,7 @@ I failed with Bubble Sort coding challange on my first job interview and deciede
 
 - [x] Bubble Sort
 - [x] Linear Search
-- [ ] FizzBuzz
+- [x] FizzBuzz
 - [ ] Tree Data Structure
 - [ ] Stack Data Structure
 - [ ] Queue Data Structure
