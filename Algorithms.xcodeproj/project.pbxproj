@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA17C1002337AAF400F9FE7D /* StackDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA17C0FF2337AAF400F9FE7D /* StackDataStructure.swift */; };
 		BA19B2462336B2CA00E39642 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA19B2452336B2CA00E39642 /* FizzBuzz.swift */; };
 		BA19B24A2336B71300E39642 /* FizzBuzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA19B2492336B71300E39642 /* FizzBuzzTests.swift */; };
 		BA81E6CC2337A46200E99B98 /* Stack Data Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81E6CB2337A46200E99B98 /* Stack Data Structure.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA17C0FF2337AAF400F9FE7D /* StackDataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackDataStructure.swift; sourceTree = "<group>"; };
 		BA19B2452336B2CA00E39642 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 		BA19B2472336B40800E39642 /* FizzBuzz.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FizzBuzz.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BA19B2492336B71300E39642 /* FizzBuzzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzTests.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				BA8B96A723368045004A489C /* BubbleSortTests.swift */,
 				BA9BB90C23367E9A00C13E58 /* AlgorithmsTests.swift */,
 				BA8B96AD23368A31004A489C /* LinearSearchTests.swift */,
+				BA17C0FF2337AAF400F9FE7D /* StackDataStructure.swift */,
 				BA9BB90E23367E9A00C13E58 /* Info.plist */,
 			);
 			path = AlgorithmsTests;
@@ -297,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA17C1002337AAF400F9FE7D /* StackDataStructure.swift in Sources */,
 				BA9BB90D23367E9A00C13E58 /* AlgorithmsTests.swift in Sources */,
 				BA8B96A823368045004A489C /* BubbleSortTests.swift in Sources */,
 				BA8B96AE23368A31004A489C /* LinearSearchTests.swift in Sources */,
