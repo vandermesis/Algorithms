@@ -15,12 +15,12 @@ class StackDataStructure: XCTestCase {
     let intStack = Stack<Int>()
     
     override func setUp() {
-        stringStack.push(element: "Marek")
-        stringStack.push(element: "Marta")
-        stringStack.push(element: "Aga")
-        intStack.push(element: 1)
-        intStack.push(element: 2)
-        intStack.push(element: 3)
+        stringStack.push("Marek")
+        stringStack.push("Marta")
+        stringStack.push("Aga")
+        intStack.push(1)
+        intStack.push(2)
+        intStack.push(3)
     }
 
     override func tearDown() {
@@ -40,7 +40,7 @@ class StackDataStructure: XCTestCase {
     }
     
     func testStringStackPush() {
-        stringStack.push(element: "Leszek")
+        stringStack.push("Leszek")
         XCTAssertEqual(stringStack.peek(), "Leszek")
     }
     
@@ -69,7 +69,7 @@ class StackDataStructure: XCTestCase {
     }
     
     func testIntStackPush() {
-        intStack.push(element: 4)
+        intStack.push(4)
         XCTAssertEqual(intStack.peek(), 4)
     }
     
@@ -82,6 +82,73 @@ class StackDataStructure: XCTestCase {
         XCTAssertEqual(intStack.pop(), 2)
         XCTAssertEqual(intStack.pop(), 1)
         XCTAssertNil(intStack.peek())
+    }
+    
+    func testEmpty() {
+      let stack = Stack<Int>()
+      XCTAssertTrue(stack.isEmpty)
+      XCTAssertEqual(stack.count, 0)
+      XCTAssertEqual(stack.peek(), nil)
+      XCTAssertNil(stack.pop())
+    }
+    
+    func testOneElement() {
+      let stack = Stack<Int>()
+      stack.push(123)
+      XCTAssertFalse(stack.isEmpty)
+      XCTAssertEqual(stack.count, 1)
+      XCTAssertEqual(stack.peek(), 123)
+        
+      let result = stack.pop()
+      XCTAssertEqual(result, 123)
+      XCTAssertTrue(stack.isEmpty)
+      XCTAssertEqual(stack.count, 0)
+      XCTAssertEqual(stack.peek(), nil)
+      XCTAssertNil(stack.pop())
+    }
+
+    func testTwoElements() {
+      let stack = Stack<Int>()
+        
+      stack.push(123)
+      stack.push(456)
+      XCTAssertFalse(stack.isEmpty)
+      XCTAssertEqual(stack.count, 2)
+      XCTAssertEqual(stack.peek(), 456)
+        
+      let result1 = stack.pop()
+      XCTAssertEqual(result1, 456)
+      XCTAssertFalse(stack.isEmpty)
+      XCTAssertEqual(stack.count, 1)
+      XCTAssertEqual(stack.peek(), 123)
+
+      let result2 = stack.pop()
+      XCTAssertEqual(result2, 123)
+      XCTAssertTrue(stack.isEmpty)
+      XCTAssertEqual(stack.count, 0)
+      XCTAssertEqual(stack.peek(), nil)
+      XCTAssertNil(stack.pop())
+    }
+
+    func testMakeEmpty() {
+      let stack = Stack<Int>()
+
+      stack.push(123)
+      stack.push(456)
+      XCTAssertNotNil(stack.pop())
+      XCTAssertNotNil(stack.pop())
+      XCTAssertNil(stack.pop())
+
+      stack.push(789)
+      XCTAssertEqual(stack.count, 1)
+      XCTAssertEqual(stack.peek(), 789)
+
+      let result = stack.pop()
+      XCTAssertEqual(result, 789)
+      XCTAssertTrue(stack.isEmpty)
+      XCTAssertEqual(stack.count, 0)
+      XCTAssertEqual(stack.peek(), nil)
+      XCTAssertNil(stack.pop())
     }
 
 }

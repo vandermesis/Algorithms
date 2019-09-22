@@ -16,7 +16,7 @@ class Stack<Element> {
     var count: Int {
         return array.count
     }
-    func push(element: Element) {
+    func push(_ element: Element) {
         array.append(element)
     }
     func pop() -> Element? {
