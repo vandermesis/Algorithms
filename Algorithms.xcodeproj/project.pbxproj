@@ -10,6 +10,7 @@
 		BA17C1002337AAF400F9FE7D /* StackDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA17C0FF2337AAF400F9FE7D /* StackDataStructure.swift */; };
 		BA19B2462336B2CA00E39642 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA19B2452336B2CA00E39642 /* FizzBuzz.swift */; };
 		BA19B24A2336B71300E39642 /* FizzBuzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA19B2492336B71300E39642 /* FizzBuzzTests.swift */; };
+		BA3443402338FDE3000D9B97 /* TreeDataStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA34433F2338FDE3000D9B97 /* TreeDataStructure.swift */; };
 		BA81E6CC2337A46200E99B98 /* Stack Data Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81E6CB2337A46200E99B98 /* Stack Data Structure.swift */; };
 		BA8B96A523367FFE004A489C /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B96A423367FFE004A489C /* BubbleSort.swift */; };
 		BA8B96A823368045004A489C /* BubbleSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B96A723368045004A489C /* BubbleSortTests.swift */; };
@@ -41,6 +42,8 @@
 		BA19B2452336B2CA00E39642 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 		BA19B2472336B40800E39642 /* FizzBuzz.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FizzBuzz.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BA19B2492336B71300E39642 /* FizzBuzzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzTests.swift; sourceTree = "<group>"; };
+		BA34433F2338FDE3000D9B97 /* TreeDataStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeDataStructure.swift; sourceTree = "<group>"; };
+		BA5E265C233900BC00FA402A /* TreeDataStructure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TreeDataStructure.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BA81E6CB2337A46200E99B98 /* Stack Data Structure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stack Data Structure.swift"; sourceTree = "<group>"; };
 		BA81E6CD2337A48500E99B98 /* Stack Data Structure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Stack Data Structure.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BA8B96A423367FFE004A489C /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
@@ -116,6 +119,15 @@
 			path = LinearSearch;
 			sourceTree = "<group>";
 		};
+		BA9336C52338FF5B009E8B41 /* Tree Data Structure */ = {
+			isa = PBXGroup;
+			children = (
+				BA34433F2338FDE3000D9B97 /* TreeDataStructure.swift */,
+				BA5E265C233900BC00FA402A /* TreeDataStructure.playground */,
+			);
+			path = "Tree Data Structure";
+			sourceTree = "<group>";
+		};
 		BA9BB8E923367E9900C13E58 = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +157,7 @@
 				BA8B96AB2336876B004A489C /* LinearSearch */,
 				BA19B2482336B4BA00E39642 /* FizzBuzz */,
 				BA81E6CE2337A49100E99B98 /* Stack Data Structure */,
+				BA9336C52338FF5B009E8B41 /* Tree Data Structure */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -291,6 +304,7 @@
 				BA9BB8F823367E9900C13E58 /* SceneDelegate.swift in Sources */,
 				BA8B96AA23368759004A489C /* LinearSearch.swift in Sources */,
 				BA9BB8FA23367E9900C13E58 /* ContentView.swift in Sources */,
+				BA3443402338FDE3000D9B97 /* TreeDataStructure.swift in Sources */,
 				BA8B96A523367FFE004A489C /* BubbleSort.swift in Sources */,
 				BA19B2462336B2CA00E39642 /* FizzBuzz.swift in Sources */,
 			);
