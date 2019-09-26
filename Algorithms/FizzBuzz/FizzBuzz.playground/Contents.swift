@@ -20,3 +20,20 @@ func fizzBuzz(_ array: [Int]) -> [String] {
 
 fizzBuzz([30])
 fizzBuzz(numbers)
+
+func fizzBuzzSwitch(input: Int) -> String {
+    var str: String = "The result is "
+    switch (input % 3 == 0, input % 5 == 0) {
+    case (true, false):
+        str += "Fizz"
+    case (false, true):
+        str += "Buzz"
+    case (true, true):
+        str += "FizzBuzz"
+    default:
+        str += String(input)
+    }
+    return str
+}
+
+fizzBuzzSwitch(input: 3)
