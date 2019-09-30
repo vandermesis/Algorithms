@@ -18,12 +18,12 @@ I failed with Bubble Sort coding challange on my first job interview and deciede
 - [x] Unit Tests
 
 - [x] Bubble Sort
+- [x] InsertionSort
 - [x] Linear Search
 - [x] FizzBuzz
 - [x] Tree Data Structure
 - [x] Stack Data Structure
 - [ ] Queue Data Structure
-
 ...
 
 ## Requirements
