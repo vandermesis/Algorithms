@@ -12,12 +12,12 @@ func insertionSort(_ array: [Int]) -> [Int] {
     var sortedArray = array
     for i in 1..<sortedArray.count {
         var count = i
-        while count > 0 && sortedArray[count] < sortedArray[count-1] {
-            let tmp = sortedArray[count]
+        let numToInsert = sortedArray[count]
+        while count > 0 && numToInsert < sortedArray[count-1] {
             sortedArray[count] = sortedArray[count-1]
-            sortedArray[count-1] = tmp
             count -= 1
         }
+        sortedArray[count] = numToInsert
     }
     return sortedArray
 }

@@ -10,7 +10,6 @@ func insertionSort(_ array: [Int]) -> [Int] {
             let tmp = sortedArray[i]
             sortedArray[i] = sortedArray[i-1]
             sortedArray[i-1] = tmp
-            print(sortedArray)
             i -= 1
         }
     }
@@ -30,7 +29,6 @@ func insertionSortTwoLoops(_ array: [Int]) -> [Int] {
             let tmp = sortedArray[i]
             sortedArray[i] = sortedArray[i-1]
             sortedArray[i-1] = tmp
-            print(sortedArray)
             i -= 1
         }
     }
@@ -38,3 +36,35 @@ func insertionSortTwoLoops(_ array: [Int]) -> [Int] {
 }
 
 insertionSortTwoLoops(list)
+
+func insertionSortOptimized(_ array: [Int]) -> [Int] {
+  var a = array
+  for x in 1..<a.count {
+    var y = x
+    let temp = a[y]
+    while y > 0 && temp < a[y - 1] {
+      a[y] = a[y - 1]                // 1
+      y -= 1
+    }
+    a[y] = temp                      // 2
+  }
+  return a
+}
+
+insertionSortOptimized(list)
+
+func insertionSortMyOptimized(_ array: [Int]) -> [Int] {
+    var sortedArray = array
+    for i in 1..<sortedArray.count {
+        var count = i
+        let numToInsert = sortedArray[count]
+        while count > 0 && numToInsert < sortedArray[count-1] {
+            sortedArray[count] = sortedArray[count-1]
+            count -= 1
+        }
+        sortedArray[count] = numToInsert
+    }
+    return sortedArray
+}
+
+insertionSortMyOptimized(list)
