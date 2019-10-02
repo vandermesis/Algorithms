@@ -13,7 +13,8 @@ class InsertionSortTests: XCTestCase {
     
     let myArray = [8,5,9,4,2,6,7,1,3]
     let list = [ 10, -1, 3, 9, 2, 27, 8, 5, 1, 3, 0, 26 ]
-
+    let strings = [ "b", "a", "d", "c", "e" ]
+    
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -23,11 +24,15 @@ class InsertionSortTests: XCTestCase {
     }
 
     func testInsertionSort() {
-        XCTAssertEqual(insertionSort(myArray), [1,2,3,4,5,6,7,8,9])
+        XCTAssertEqual(insertionSort(myArray, <), [1,2,3,4,5,6,7,8,9])
     }
 
     func testInsertioSortWithSorted() {
-        XCTAssertEqual(insertionSort(list), list.sorted())
+        XCTAssertEqual(insertionSort(list, <), list.sorted())
+    }
+    
+    func testInsertionSortWithStrings() {
+        XCTAssertEqual(insertionSort(strings, <), ["a","b","c","d","e"])
     }
     
     func testInsertionSortWithRandomArrayOf100Numbers() {
@@ -37,7 +42,7 @@ class InsertionSortTests: XCTestCase {
             randomArray.append(randomNumber)
         }
         print(randomArray)
-        print(insertionSort(randomArray))
-        XCTAssertEqual(insertionSort(randomArray), randomArray.sorted())
+        print(insertionSort(randomArray, <))
+        XCTAssertEqual(insertionSort(randomArray, <), randomArray.sorted())
     }
 }
