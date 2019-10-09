@@ -18,7 +18,8 @@ I failed with Bubble Sort coding challange on my first job interview and deciede
 - [x] Unit Tests
 
 - [x] Bubble Sort
-- [x] InsertionSort
+- [x] Insertion Sort
+- [x] Merge Sort
 - [x] Linear Search
 - [x] FizzBuzz
 - [x] Tree Data Structure
@@ -27,7 +28,7 @@ I failed with Bubble Sort coding challange on my first job interview and deciede
 ...
 
 ## Requirements
-- Xcode 10.3 with latest iOS SDK (12.4)
+- Xcode 10.3 with iOS SDK (12.4)
 
 ## Credits
 
