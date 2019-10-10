@@ -26,6 +26,7 @@
 		BA9BB90223367E9A00C13E58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9BB90023367E9A00C13E58 /* LaunchScreen.storyboard */; };
 		BA9BB90D23367E9A00C13E58 /* AlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BB90C23367E9A00C13E58 /* AlgorithmsTests.swift */; };
 		BABA9DD6234E7C9A009A53CD /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABA9DD5234E7C9A009A53CD /* MergeSort.swift */; };
+		BABB3E0D234FC0570047D6A9 /* MergeSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB3E0C234FC0570047D6A9 /* MergeSortTests.swift */; };
 		BACAD0C123429CC600D77F44 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACAD0C023429CC600D77F44 /* InsertionSort.swift */; };
 		BACAD0C52342A80200D77F44 /* InsertionSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACAD0C42342A80200D77F44 /* InsertionSortTests.swift */; };
 /* End PBXBuildFile section */
@@ -69,6 +70,7 @@
 		BA9BB90E23367E9A00C13E58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BABA9DD4234E7C6D009A53CD /* MergeSort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MergeSort.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BABA9DD5234E7C9A009A53CD /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		BABB3E0C234FC0570047D6A9 /* MergeSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortTests.swift; sourceTree = "<group>"; };
 		BACAD0C023429CC600D77F44 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		BACAD0C223429CD800D77F44 /* InsertionSort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = InsertionSort.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BACAD0C42342A80200D77F44 /* InsertionSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSortTests.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				BA19B2492336B71300E39642 /* FizzBuzzTests.swift */,
 				BACAD0C42342A80200D77F44 /* InsertionSortTests.swift */,
 				BA8B96AD23368A31004A489C /* LinearSearchTests.swift */,
+				BABB3E0C234FC0570047D6A9 /* MergeSortTests.swift */,
 				BA17C0FF2337AAF400F9FE7D /* StackDataStructure.swift */,
 				BA9BB90E23367E9A00C13E58 /* Info.plist */,
 			);
@@ -346,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA17C1002337AAF400F9FE7D /* StackDataStructure.swift in Sources */,
+				BABB3E0D234FC0570047D6A9 /* MergeSortTests.swift in Sources */,
 				BA9BB90D23367E9A00C13E58 /* AlgorithmsTests.swift in Sources */,
 				BA8B96A823368045004A489C /* BubbleSortTests.swift in Sources */,
 				BA8B96AE23368A31004A489C /* LinearSearchTests.swift in Sources */,
