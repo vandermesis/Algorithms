@@ -8,19 +8,19 @@
 
 import Foundation
 
-func mergeSort<T: Comparable>(_ array: [T]) -> [T] {
+func mergeSortTopDown<T: Comparable>(_ array: [T]) -> [T] {
     guard array.count > 1 else {
         return array
     }
     let middleIndex = array.count / 2
-    let leftArray = mergeSort(Array(array[0..<middleIndex]))
-    let rightArray = mergeSort(Array(array[middleIndex..<array.count]))
+    let leftArray = mergeSortTopDown(Array(array[0..<middleIndex]))
+    let rightArray = mergeSortTopDown(Array(array[middleIndex..<array.count]))
     
     print(leftArray, "|", rightArray)
-    return merge(leftArray, rightArray)
+    return mergeTopDown(leftArray, rightArray)
 }
 
-func merge<T: Comparable>(_ left: [T], _ right: [T]) -> [T] {
+func mergeTopDown<T: Comparable>(_ left: [T], _ right: [T]) -> [T] {
   var leftIndex = 0
   var rightIndex = 0
   var orderedArray: [T] = []
